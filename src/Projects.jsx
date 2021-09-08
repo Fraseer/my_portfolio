@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { Component, Button } from "react";
+import React, { Component } from "react";
 // import { Container, Menu, Segment } from "semantic-ui-react";
 import { Container, Grid } from "semantic-ui-react";
 import ProjectCard from "./ProjectCard";
