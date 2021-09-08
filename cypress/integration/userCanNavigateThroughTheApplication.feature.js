@@ -69,4 +69,30 @@ describe("User can natigate the app", () => {
       cy.get("#projects-header").should("not.exist");
     });
   });
+
+  describe("to Contact tab and it", () => {
+    beforeEach(() => {
+      cy.get("#contact-tab").click();
+    });
+
+    it("displays Contact header", () => {
+      cy.get("#contact-header").should("contain", "Contact");
+    });
+
+    it("displays component name in url", () => {
+      cy.url().should("contain", "contact").and("not.contain", "about", "project");
+    });
+
+    it("does not display About me header", () => {
+      cy.get("#about-header").should("not.exist");
+    });
+
+    it("does not display Hello World", () => {
+      cy.get("#hello").should("not.exist");
+    });
+
+    it("does not display My Projects header", () => {
+      cy.get("#projects-header").should("not.exist");
+    });
+  });
 });

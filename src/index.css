@@ -1,3 +1,7 @@
+body{
+  background-color: coral;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -5,14 +9,14 @@ footer {
   height: 60px;
   padding-top: 10px;
   padding-bottom: 20px;
-  background-color: #08ff29;
+  background-color: #ff6b07;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
 .container {
-  margin-top: 4em;
+  margin-top: 1em;
 }
 
 button, input[type="submit"], input[type="reset"] {
