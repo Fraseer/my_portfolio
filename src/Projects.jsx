@@ -14,9 +14,9 @@ const Projects = () => {
 
   let projectsList = projects.map((project) => {
     return (
-      <React.Fragment id={`project-${project.id}`} key={project.id}>
+      <div id={`project-${project.id}`} key={project.id}>
         <ProjectCard project={project} />
-      </React.Fragment>
+      </div>
     );
   });
   return (
