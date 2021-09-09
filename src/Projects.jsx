@@ -14,24 +14,19 @@ const Projects = () => {
 
   let projectsList = projects.map((project) => {
     return (
-      <div id={`project-${project.id}`} key={project.id}>
+      <React.Fragment id={`project-${project.id}`} key={project.id}>
         <ProjectCard project={project} />
-      </div>
+      </React.Fragment>
     );
   });
-
   return (
-    // (
-    //   <React.Fragment id={`project-${project.id}`} key={project.id}>
-    //     <ProjectCard project={project} />
-    //   </React.Fragment>
-    // ),
     <Container>
       <h1 id="projects-header">My Projects</h1>
       <Grid>{projectsList}</Grid>
     </Container>
   );
 };
+
 export default Projects;
 
 //---------------------------------------------------------------------------------------
