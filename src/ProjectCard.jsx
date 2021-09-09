@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   return (
     <button oneclick="ProjectCard">
       <Card>
-        <Image src={project.image} wrapped ui={false} />
+        <Image src={project.image} wrapped ui={false} alt={project.alt}/>
         <Card.Content>
           <Card.Header>{project.name}</Card.Header>
           <Card.Description>{project.description}</Card.Description>
