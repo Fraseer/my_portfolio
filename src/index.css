@@ -2,6 +2,10 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
+img{
+  float:right
+}
+
 footer {
   position: absolute;
   bottom: 0;
