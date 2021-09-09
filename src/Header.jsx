@@ -4,20 +4,13 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Segment inverted color="orange" >
-      <Menu inverted secondary size="medium" >
+    <Segment inverted color="orange">
+      <Menu inverted secondary size="medium">
         <Menu.Item
           id="header"
           name="my portfolio"
           as={Link}
           to={{ pathname: "/" }}
-          
-        />
-        <Menu.Item
-          id="about-tab"
-          name="about me"
-          as={NavLink}
-          to={{ pathname: "/about" }}
         />
         <Menu.Item
           id="projects-tab"
@@ -26,10 +19,16 @@ const Header = () => {
           to={{ pathname: "/projects" }}
         />
         <Menu.Item
+          id="about-tab"
+          name="about me"
+          as={NavLink}
+          to={{ pathname: "/about" }}
+        />
+        <Menu.Item
           id="contact-tab"
           name="contact"
           as={NavLink}
-          to={{pathname: "/contact"}}
+          to={{ pathname: "/contact" }}
         />
       </Menu>
     </Segment>
