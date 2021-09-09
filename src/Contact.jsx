@@ -5,9 +5,7 @@ const Contact = () => {
   return (
     <Container>
       <h1 id="contact-header">Contact</h1>
-      <p>
-        Name Email Yada yada
-        </p>
+      <p>Name Email Yada yada</p>
     </Container>
   );
 };

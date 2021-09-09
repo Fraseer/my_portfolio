@@ -23,6 +23,15 @@ describe("User can natigate the app", () => {
     it("does not display Hello World", () => {
       cy.get("#hello").should("not.exist");
     });
+
+    // describe("goes to the Craft Academy website ", () => {
+    //   before(() => {
+    //     cy.get("#craftacademy").click();
+    //   });
+    //   it("when the link is clicked", () => {
+    //     cy.url().should("contain", "craftacademy");
+    //   });
+    // });
   });
 
   describe("to My Project tab and it", () => {
@@ -54,7 +63,7 @@ describe("User can natigate the app", () => {
     });
 
     it("displays Hello World", () => {
-      cy.get("#hello").should("contain", "Hello");
+      cy.get("#hello").should("contain", "Welcome");
     });
 
     it("displays correct url", () => {
@@ -80,7 +89,9 @@ describe("User can natigate the app", () => {
     });
 
     it("displays component name in url", () => {
-      cy.url().should("contain", "contact").and("not.contain", "about", "project");
+      cy.url()
+        .should("contain", "contact")
+        .and("not.contain", "about", "project");
     });
 
     it("does not display About me header", () => {
