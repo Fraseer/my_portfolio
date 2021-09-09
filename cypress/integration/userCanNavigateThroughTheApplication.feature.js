@@ -24,6 +24,9 @@ describe("User can natigate the app", () => {
       cy.get("#hello").should("not.exist");
     });
 
+    it("displays a picture", () => {
+      cy.get("#about-picture").should('have.attr', 'alt');
+    });
     // describe("goes to the Craft Academy website ", () => {
     //   before(() => {
     //     cy.get("#craftacademy").click();
@@ -62,8 +65,8 @@ describe("User can natigate the app", () => {
       cy.get("#header").click();
     });
 
-    it("displays Hello World", () => {
-      cy.get("#hello").should("contain", "Welcome");
+    it("displays Hello", () => {
+      cy.get("#hello").should("contain", "Hello");
     });
 
     it("displays correct url", () => {
