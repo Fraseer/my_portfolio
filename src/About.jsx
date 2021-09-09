@@ -9,7 +9,7 @@ const About = () => {
         width="200"
         id="about-picture"
         src="https://lh3.googleusercontent.com/pw/AM-JKLXXmt1cVgL7fB-xtpsgl2EGlqwA61ksDagoIrI3Cv0DeHWhKJMsjy89SSDTLJaszAd_AFmVleu7lb5nrohx2mFxk7eABfg78LdaxdD-vZCGwV-85E0r6pQPqSBiV2MveQAs1l4GBexWiC0gban26ETh=w634-h784-no?authuser=0"
-        alt="Picture of me!"
+        alt="Thats of me!"
       />
       <p>
         My journey into web developement started with the{" "}
