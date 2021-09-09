@@ -1,21 +1,19 @@
 import axios from "axios";
-import React, { Component, useState, useEffect } from "react";
-import { Container, Grid } from "semantic-ui-react";
+import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-  const [project] = useState({});
-  const [projects, setProject] = useEffect([]);
+  const [project, setProjects] = useState({});
 
   useEffect(() => {
     //axios call in here
     axios.get("./data/projects.json").then((response) => {
-      this.setState({ projects: response.data });
+      setProjects({ projects: response.data });
     }, []);
 
     return (
       <React.Fragment id={`project-${project.id}`} key={project.id}>
-        <ProjectCard project={project} />
+        <ProjectCard project={setProjects} />
       </React.Fragment>
     );
   });

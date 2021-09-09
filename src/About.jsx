@@ -6,6 +6,7 @@ const About = () => {
     <Container>
       <h1 id="about-header">About Me</h1>
       <img
+        width="200"
         id="about-picture"
         src="https://ibb.co/nkTS6SG"
         alt="Picture of me!"
