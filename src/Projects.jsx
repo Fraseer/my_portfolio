@@ -50,13 +50,13 @@ export default Projects;
 //   render() {
 //     const { projects } = this.state;
 
-// let projectsList = projects.map((project) => {
-//   return (
-//     <div id={`project-${project.id}`} key={project.id}>
-//       <ProjectCard project={project} />
-//     </div>
-//   );
-// });
+//       let projectsList = projects.map((project) => {
+//         return (
+//           <div id={`project-${project.id}`} key={project.id}>
+//             <ProjectCard project={project} />
+//           </div>
+//         );
+//       });
 
 //     return (
 //       <Container>

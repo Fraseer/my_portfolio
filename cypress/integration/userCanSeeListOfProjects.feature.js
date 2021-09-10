@@ -9,6 +9,7 @@ describe("User can see list of projects", () => {
       cy.get(".image").find('img').should('have.attr', 'alt');
       cy.get(".header").should("contain", "My First Website");
       cy.get(".description").should("contain", "This website right here!");
+      // cy.get(".url").should("contain", "my-portfolio");
     });
   });
 
