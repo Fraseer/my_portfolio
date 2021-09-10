@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import { Container } from "semantic-ui-react";
 
 const encode = (data) => {
@@ -30,73 +30,74 @@ class ContactForm extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <form onSubmit={this.handleSubmit} netlify name="contact">
-        <input type="hidden" name="form-name" value="contact" />
+      <Container>
+        <h1 id="contact-header">Contact</h1>
         <p>
-          <label>
-            Your Name:
-            <input
-              id="name"
-              type="text"
-              name="name"
-              value={name}
-              onChange={this.handleChange}
-            />
-          </label>
+          If you like what you see please don't hesitate to get in contact one
+          of the ways below.
         </p>
+        <p>Email: Fraser.Hughes@btinternet.com</p>
         <p>
-          <label>
-            Your Email:
-            <input
-              id="email"
-              type="email"
-              name="email"
-              value={email}
-              onChange={this.handleChange}
-            />
-          </label>
+          Social Media:{" "}
+          <a
+            href="https://www.linkedin.com/in/fraser-hughes-568243107/"
+            rel="nofollow noreferrer"
+          >
+            {" "}
+            My LinkedIn.
+          </a>
         </p>
-        <p>
-          <label>
-            Message:
-            <textarea
-              id="message"
-              name="message"
-              value={message}
-              onChange={this.handleChange}
-            />
-          </label>
-        </p>
-        <p>
-          <button id="send-button" type="submit">Send</button>
-        </p>
-      </form>
+
+        <form id="contact-form" onSubmit={this.handleSubmit} netlify name="contact">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>
+              Your Name:
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="enter name"
+                value={name}
+                onChange={this.handleChange}
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email:
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="enter email"
+                value={email}
+                onChange={this.handleChange}
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message:
+              <textarea
+                id="message"
+                name="message"
+                placeholder="enter message"
+                value={message}
+                onChange={this.handleChange}
+              />
+            </label>
+          </p>
+          <p>
+            <button id="send-button" type="submit">
+              Send
+            </button>
+          </p>
+        </form>
+      </Container>
     );
   }
 }
 
-// const Contact = () => {
-//   return (
-//     <Container>
-//       <h1 id="contact-header">Contact</h1>
-//       <p>
-//         If you like what you see please don't hesitate to get in contact one of
-//         the ways below.
-//       </p>
-//       <p>Email: Fraser.Hughes@btinternet.com</p>
-//       <p>
-//         Social Media:{" "}
-//         <a
-//           href="https://www.linkedin.com/in/fraser-hughes-568243107/"
-//           rel="nofollow noreferrer"
-//         >
-//           {" "}
-//           My LinkedIn.
-//         </a>
-//       </p>
-//     </Container>
-//   );
-// };
-
 export default ContactForm;
-// export default Contact;
+
