@@ -14,9 +14,9 @@ const Projects = () => {
 
   let projectsList = projects.map((project) => {
     return (
-      <React.Fragment id={`project-${project.id}`} key={project.id}>
+      <div id={`project-${project.id}`} key={project.id}>
         <ProjectCard project={project} />
-      </React.Fragment>
+      </div>
     );
   });
   return (
@@ -44,19 +44,19 @@ export default Projects;
 //   componentDidMount() {
 //     axios.get("./data/projects.json").then((response) => {
 //       this.setState({ projects: response.data });
-//     });
+//     }); m m  
 //   }
 
 //   render() {
 //     const { projects } = this.state;
 
-// let projectsList = projects.map((project) => {
-//   return (
-//     <div id={`project-${project.id}`} key={project.id}>
-//       <ProjectCard project={project} />
-//     </div>
-//   );
-// });
+//       let projectsList = projects.map((project) => {
+//         return (
+//           <div id={`project-${project.id}`} key={project.id}>
+//             <ProjectCard project={project} />
+//           </div>
+//         );
+//       });
 
 //     return (
 //       <Container>
