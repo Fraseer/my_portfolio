@@ -44,7 +44,7 @@ export default Projects;
 //   componentDidMount() {
 //     axios.get("./data/projects.json").then((response) => {
 //       this.setState({ projects: response.data });
-//     });
+//     }); m m  
 //   }
 
 //   render() {

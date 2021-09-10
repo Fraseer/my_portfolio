@@ -1,5 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-import { Container } from "semantic-ui-react";
+import { Container, Button } from "semantic-ui-react";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -57,7 +57,7 @@ class ContactForm extends Component {
                 id="name"
                 type="text"
                 name="name"
-                placeholder="enter name"
+                placeholder="enter your name"
                 value={name}
                 onChange={this.handleChange}
               />
@@ -70,7 +70,7 @@ class ContactForm extends Component {
                 id="email"
                 type="email"
                 name="email"
-                placeholder="enter email"
+                placeholder="enter your email"
                 value={email}
                 onChange={this.handleChange}
               />
@@ -82,16 +82,16 @@ class ContactForm extends Component {
               <textarea
                 id="message"
                 name="message"
-                placeholder="enter message"
+                placeholder="enter your message"
                 value={message}
                 onChange={this.handleChange}
               />
             </label>
           </p>
           <p>
-            <button id="send-button" type="submit">
+            <Button id="send-button" type="submit">
               Send
-            </button>
+            </Button>
           </p>
         </form>
       </Container>
