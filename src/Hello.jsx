@@ -20,8 +20,8 @@ const Hello = () => {
       <p>
         I am going to be using this site to showcase some of the projects I've
         been working on. Currently the projects are base around web development,
-        using the languages JavaScript and Ruby to write the code. Any live
-        websites will be written using React and run using the Netlify servers.
+        written in JavaScript and Ruby. Any live websites will be written using
+        React and run using the Netlify servers.
       </p>
     </Container>
   );
