@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "employer": "GDC Technics",
+    "role": "Airworthiness Engineer",
+    "dates": "Aug 2019 - Nov 2020",
+    "keyTasks": "Performing Major/Minor changes to CS 23, 25, 27 & 29 aircraft."
+  },
+  {
+    "id": 2,
+    "employer": "Sogeclair Aerospace",
+    "role": "Graduate Engineer",
+    "dates": "Oct 2018 - Jul 2019",
+    "keyTasks": "Stress & design work for Airbus Ground Support Equipment, assisting the with stress testing and redesign of damaged and new products."
+  },
+  {
+    "id": 3,
+    "employer": "University of the West of England",
+    "role": "Student Representative",
+    "dates": "Aug 2019 - Nov 2020",
+    "keyTasks": "Interacting with students to find any concerns or suggestions they have about the course."
+  }
+]
