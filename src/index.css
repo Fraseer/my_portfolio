@@ -38,7 +38,10 @@ footer {
 
 .container {
   margin-top: 1em;
-  
+}
+
+.segment{
+  color: #ff9900
 }
 
 button, input[type="submit"], input[type="reset"] {

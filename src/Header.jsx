@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Segment inverted color="orange">
+    <Segment>
       <Menu inverted secondary size="large">
         <Menu.Item
           id="header"
