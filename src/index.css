@@ -1,5 +1,6 @@
 body{
   background-color: rgb(255, 255, 255);
+  font-family: 'Arvo';
 }
 
 img{
@@ -7,7 +8,17 @@ img{
 }
 
 p{
-  font-size: 125%
+  font-size: 150%;
+  font-family: 'Arvo'
+}
+
+#cv-text{
+  font-size: 100%;
+  font-family: 'Arvo'
+}
+
+h1{
+  font-family: 'Arvo';
 }
 
 footer {

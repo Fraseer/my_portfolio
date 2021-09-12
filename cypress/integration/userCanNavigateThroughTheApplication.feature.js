@@ -25,7 +25,7 @@ describe("User can natigate the app", () => {
     });
 
     it("displays a picture", () => {
-      cy.get("#about-picture").should('have.attr', 'alt');
+      cy.get("#about-picture").should("have.attr", "alt");
     });
     // describe("goes to the Craft Academy website ", () => {
     //   before(() => {
@@ -106,6 +106,37 @@ describe("User can natigate the app", () => {
     });
 
     it("does not display My Projects header", () => {
+      cy.get("#projects-header").should("not.exist");
+    });
+  });
+
+  describe("to CV tab and it", () => {
+    beforeEach(() => {
+      cy.get("#cv-tab").click();
+    });
+
+    it("displays CV header", () => {
+      cy.get("#cv-header").should("contain", "CV");
+    });
+
+    it("displays component name in url", () => {
+      cy.url()
+        .should("contain", "cv")
+        .and("not.contain", "about", "project","contact");
+    });
+
+    it("does not display About me header", () => {
+      cy.get("#about-header").should("not.exist");
+    });
+
+    it("does not display Hello World", () => {
+      cy.get("#hello").should("not.exist");
+    });
+
+    it("does not display My Projects header", () => {
+      cy.get("#projects-header").should("not.exist");
+    });
+    it("does not display Contacts header", () => {
       cy.get("#projects-header").should("not.exist");
     });
   });
