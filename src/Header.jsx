@@ -4,8 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Segment>
-      <Menu inverted secondary size="large">
+      <Menu attached="top">
         <Menu.Item
           id="header"
           name="my portfolio"
@@ -37,7 +36,6 @@ const Header = () => {
           to={{ pathname: "/contact" }}
         />
       </Menu>
-    </Segment>
   );
 };
 
