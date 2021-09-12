@@ -1,10 +1,11 @@
 import React from "react";
-import { Menu } from "semantic-ui-react";
+import { Menu, Segment } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-      <Menu attached="top">
+    <Segment inverted color="black">
+      <Menu inverted secondary size="large">
         <Menu.Item
           id="header"
           name="my portfolio"
@@ -36,6 +37,7 @@ const Header = () => {
           to={{ pathname: "/contact" }}
         />
       </Menu>
+    </Segment>
   );
 };
 
