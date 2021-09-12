@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Education from "./EducationContainer";
 import Experience from "./ExperienceContainer";
-import { Container, Grid } from "semantic-ui-react";
 
 const CV = () => {
   const [education, setEducation] = useState([]);
