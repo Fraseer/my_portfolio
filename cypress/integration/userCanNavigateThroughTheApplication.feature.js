@@ -27,6 +27,7 @@ describe("User can natigate the app", () => {
     it("displays a picture", () => {
       cy.get("#about-picture").should("have.attr", "alt");
     });
+
     // describe("goes to the Craft Academy website ", () => {
     //   before(() => {
     //     cy.get("#craftacademy").click();
@@ -115,14 +116,10 @@ describe("User can natigate the app", () => {
       cy.get("#cv-tab").click();
     });
 
-    it("displays CV header", () => {
-      cy.get("#cv-header").should("contain", "CV");
-    });
-
     it("displays component name in url", () => {
       cy.url()
         .should("contain", "cv")
-        .and("not.contain", "about", "project","contact");
+        .and("not.contain", "about", "project", "contact");
     });
 
     it("does not display About me header", () => {
