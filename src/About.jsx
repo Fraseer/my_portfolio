@@ -1,10 +1,9 @@
 import React from "react";
-import { Container, Segment } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 
 const About = () => {
   return (
     <Container>
-      <Segment>
       <img
         width="225"
         id="about-picture"
@@ -41,7 +40,6 @@ const About = () => {
         Gothenburgs amazing nature, försöker lära sig svenska, and cooking as a
         way to relax.
       </p>
-      </Segment>
     </Container>
   );
 };
