@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import Education from "./EducationContainer";
 import Experience from "./ExperienceContainer";
+import { Container } from "semantic-ui-react";
 
 const CV = () => {
   const [education, setEducation] = useState([]);
@@ -36,17 +37,19 @@ const CV = () => {
   });
 
   return (
-    <div class="row">
-      <div class="column">
-        <h1 id="text">Education</h1>
-        <p>{educationList}</p>
-      </div>
+    <Container>
+      <div class="row">
+        <div class="column">
+          <h1 id="text">Education</h1>
+          <p>{educationList}</p>
+        </div>
 
-      <div class="column">
-        <h1 id="text">Experience</h1>
-        <p>{experienceList}</p>
+        <div class="column">
+          <h1 id="text">Experience</h1>
+          <p>{experienceList}</p>
+        </div>
       </div>
-    </div>
+    </Container>
   );
 };
 

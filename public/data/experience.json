@@ -4,20 +4,17 @@
     "employer": "GDC Technics",
     "role": "Airworthiness Engineer",
     "dates": "Aug 2019 - Nov 2020",
-    "keyTasks": "Performing Major/Minor changes to CS 23, 25, 27 & 29 aircraft."
+    "keyTasks1": "Performing Major/Minor changes to CS 23, 25, 27 & 29 aircraft.",
+    "keyTasks2": "Types of changes include structural, cabin interiors, galleys or other interior equipment, and PAX to freighter conversions",
+    "keyTasks3": "Working in Research and Development to create new products for GDC Technics to supply to airlines."
   },
   {
     "id": 2,
     "employer": "Sogeclair Aerospace",
     "role": "Graduate Engineer",
     "dates": "Oct 2018 - Jul 2019",
-    "keyTasks": "Stress & design work for Airbus Ground Support Equipment, assisting the with stress testing and redesign of damaged and new products."
-  },
-  {
-    "id": 3,
-    "employer": "University of the West of England",
-    "role": "Student Representative",
-    "dates": "Aug 2019 - Nov 2020",
-    "keyTasks": "Interacting with students to find any concerns or suggestions they have about the course."
+    "keyTasks1": "Stress & design work for Airbus Ground Support Equipment, assisting the with stress testing and redesign of damaged and new products.",
+    "keyTasks2": "Leading a team writing the Technical Publications for a privatley owned Boeing 787-9",
+    "keyTasks3": "Performing Airworthiness for the Sogeclair Aerospace DOA."
   }
 ]
