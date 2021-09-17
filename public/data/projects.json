@@ -30,5 +30,13 @@
     "alt": "Library",
     "description": "Small project using Ruby that allows you to interact with a virtual library.",
     "url": "https://github.com/Fraseer/library-challenge"
+  },
+  {
+    "id": 5,
+    "name": "Frasian Weather",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/419h%2Bmbk5-L.jpg",
+    "alt": "Library",
+    "description": "Small project using Ruby that allows you to interact with a virtual library.",
+    "url": "https://frasian-weather.netlify.app/"
   }
 ]
