@@ -46,6 +46,13 @@ class ContactForm extends Component {
             {" "}
             My LinkedIn.
           </a>
+          <a
+            href="https://github.com/Fraseer"
+            rel="nofollow noreferrer"
+          >
+            {" "}
+            My GitHub.
+          </a>
         </p>
 
         <form id="contact-form" onSubmit={this.handleSubmit} netlify name="contact">
