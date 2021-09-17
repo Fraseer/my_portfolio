@@ -33,7 +33,7 @@ class ContactForm extends Component {
       <Container>
         <h1 id="contact-header">Contact</h1>
         <p>
-          If you like what you see please don't hesitate to get in contact one
+          If you like what you see, please don't hesitate to get in contact one
           of the ways below.
         </p>
         <p>Email: Fraser.Hughes@btinternet.com</p>
@@ -50,6 +50,7 @@ class ContactForm extends Component {
             href="https://github.com/Fraseer"
             rel="nofollow noreferrer"
           >
+            <br />
             {" "}
             My GitHub.
           </a>
