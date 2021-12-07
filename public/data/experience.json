@@ -1,20 +1,25 @@
 [
   {
     "id": 1,
-    "employer": "GDC Technics",
-    "role": "Airworthiness Engineer",
-    "dates": "Aug 2019 - Nov 2020",
-    "keyTasks1": "Performing Major/Minor changes to CS 23, 25, 27 & 29 aircraft.",
-    "keyTasks2": "Types of changes include structural, cabin interiors, galleys or other interior equipment, and PAX to freighter conversions",
-    "keyTasks3": "Working in Research and Development to create new products for GDC Technics to supply to airlines."
+    "employer": "Craft Acadeny",
+    "dates": "Aug 2021 - Nov 2021",
+    "keyTasks1": "A full stack developer course, where we learnt Agile software development using modern frameworks including: React.js, React Native, and Ruby on Rails.",
+    "keyTasks2": "Spent 3 months in intensive training, working 14+ hour days, building full stack web applications from the ground up."
   },
   {
     "id": 2,
+    "employer": "GDC Technics",
+    "role": "Airworthiness Engineer",
+    "dates": "Aug 2019 - Nov 2020",
+    "keyTasks1": "A role in the DOA completing Major/Minor changes to small person aircraft up to largest passenger aircraft.",
+    "keyTasks2": "Working in Research and Development to create new products for GDC Technics to supply to airlines."
+  },
+  {
+    "id": 1,
     "employer": "Sogeclair Aerospace",
     "role": "Graduate Engineer",
     "dates": "Oct 2018 - Jul 2019",
     "keyTasks1": "Stress & design work for Airbus Ground Support Equipment, assisting the with stress testing and redesign of damaged and new products.",
-    "keyTasks2": "Leading a team writing the Technical Publications for a privatley owned Boeing 787-9",
-    "keyTasks3": "Performing Airworthiness for the Sogeclair Aerospace DOA."
+    "keyTasks2": "Leading a team writing the Technical Publications for a privatley owned Boeing 787-9"
   }
 ]

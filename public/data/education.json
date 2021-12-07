@@ -1,32 +1,20 @@
 [
   {
     "id": 1,
-    "location": "Craft Academy",
+    "location": "Craft Academy, Gothenburg",
     "dates": "Aug 2021 - Nov 2021",
-    "qualification": "12 Week Coding Bootcamp"
+    "qualification": "12 Week Coding Bootcamp Certificate of Excellence"
   },
   {
     "id": 2,
-    "location": "University of the West of England",
+    "location": "University of the West of England, Bristol",
     "dates": "Sept 2017 - June 2019",
     "qualification": "MEng Merit Aerospace Engineering"
   },
   {
     "id": 3,
-    "location": "University of the West of England",
+    "location": "University of the West of England, Bristol",
     "dates": "Sept 2014 - June 2017",
     "qualification": "BEng 2:1 Aerospace Engineering"
-  },
-  {
-    "id": 4,
-    "location": "Sussex Coast College",
-    "dates": "Sept 2012 - June 2014",
-    "qualification": "BTEC Level 3 Diploma in Mechanical Engineering, D* D* D"
-  },
-  {
-    "id": 5,
-    "location": "Claverham Community College",
-    "dates": "Sept 2006 - June 2011",
-    "qualification": "8 GCSE C and above including English, Maths and Science"
   }
 ]

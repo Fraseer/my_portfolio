@@ -44,7 +44,7 @@ class ContactForm extends Component {
             rel="nofollow noreferrer"
           >
             {" "}
-            My LinkedIn.
+            LinkedIn.
           </a>
           <a
             href="https://github.com/Fraseer"
@@ -52,7 +52,7 @@ class ContactForm extends Component {
           >
             <br />
             {" "}
-            My GitHub.
+            GitHub.
           </a>
         </p>
 
