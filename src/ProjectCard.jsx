@@ -4,7 +4,7 @@ import { Card, Image } from "semantic-ui-react";
 const ProjectCard = ({ project }) => {
   return (
     <a href={project.url}>
-      <button oneclick="ProjectCard">
+      <button onClick="ProjectCard">
         <Card>
           <Image src={project.image} wrapped ui={false} alt={project.alt} />
           <Card.Content>

@@ -5,7 +5,7 @@ describe("User can see my CV", () => {
   });
 
   it("displays the previous education", () => {
-    cy.get("#education-1").within(() => {
+    cy.get("#education-1").children().first().within(() => {
       // cy.get(".location").should("contain", "Craft Academy");
       cy.get(".dates").should("contain", "Aug 2021 - Nov 2021");
       cy.get(".qualification").should("contain", "12 Week Coding Bootcamp")
@@ -13,7 +13,7 @@ describe("User can see my CV", () => {
   });
 
   it("displays the previous experience", () => {
-    cy.get("#experience-1").within(() => {
+    cy.get("#experience-1").children().first().within(() => {
       // cy.get(".employer").should("contain", "GDC Technics");
       cy.get(".role").should("contain", "Airworthiness Engineer");
       cy.get("dates").should("contain", "Aug 2019- Nov 2020")
