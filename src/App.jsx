@@ -3,9 +3,9 @@ import Hello from "./Hello";
 import Header from "./Header";
 import Footer from "./Footer";
 import About from "./About";
-import Projects from "./Projects";
+import Projects from "./ProjectView/Projects";
 import Contact from "./Contact";
-import CV from "./CV";
+import CV from "./CVView/CV";
 import { Switch, Route } from "react-router-dom";
 
 const App = () => {

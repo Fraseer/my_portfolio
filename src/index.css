@@ -10,7 +10,8 @@ img{
 
 p{
   font-size: 150%;
-  font-family: 'Arvo'
+  font-family: 'Arvo';
+  text-align: justify;
 }
 
 #cv-text{
