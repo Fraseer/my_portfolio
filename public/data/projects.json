@@ -35,8 +35,32 @@
     "id": 5,
     "name": "Frasian Weather",
     "image": "https://images-na.ssl-images-amazon.com/images/I/419h%2Bmbk5-L.jpg",
-    "alt": "Library",
-    "description": "Small project using Ruby that allows you to interact with a virtual library.",
+    "alt": "Weather",
+    "description": "Find the current weather and get forcasts for your current location.",
+    "url": "https://frasian-weather.netlify.app/"
+  },
+  {
+    "id": 6,
+    "name": "Too Gross For Comfort",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/419h%2Bmbk5-L.jpg",
+    "alt": "Resturant",
+    "description": "Too Gross For Comfort is a resturant that serves the weirdest cuisines from around the world.",
+    "url": "https://frasian-weather.netlify.app/"
+  },
+  {
+    "id": 7,
+    "name": "News In Progress",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/419h%2Bmbk5-L.jpg",
+    "alt": "News",
+    "description": "Get ground breaking news from around the world.",
+    "url": "https://frasian-weather.netlify.app/"
+  },
+  {
+    "id": 8,
+    "name": "Fika Together",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/419h%2Bmbk5-L.jpg",
+    "alt": "Fika",
+    "description": "An inivative way to promote company coheasiviness by scheduling Fikas based on a dissimilarity alogorithim.",
     "url": "https://frasian-weather.netlify.app/"
   }
 ]

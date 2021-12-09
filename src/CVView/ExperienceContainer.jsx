@@ -11,7 +11,6 @@ const Experience = ({ experience }) => {
         {experience.dates} <br />
         {experience.keyTasks1} <br />
         {experience.keyTasks2} <br />
-        {experience.keyTasks3} <br />
         <br />
       </p>
     </div>

@@ -28,7 +28,7 @@ const About = () => {
       </p>
       <p>
         I grew up on the south east coast of the UK before spending six years in
-        Bristol going to university and working as an Aerospace Engineer. I
+        Bristol, going to university and working as an Aerospace Engineer. I
         moved out to Sweden in December 2020, and haven't looked back,
         Gothenburg is a great city and I plan on spending a lot time here. After
         moving out here I decided to switch careers, and move into something

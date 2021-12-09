@@ -5,10 +5,9 @@ const Hello = () => {
     <Container>
       <h1 id="hello">Hello and welcome to my portfolio!</h1>
       <p>
-        I am going to be using this site to showcase some of the projects I've
-        been working on. Currently the projects are base around web development,
-        written in JavaScript and Ruby. Any live websites will be written using
-        React and run using the Netlify servers.
+        This site is being used to showcase some of the projects I've
+        been working on. Currently the projects are based around web development,
+        and written using React.js and Ruby on Rails. Deployed site can be found on Netlify and Heroku.
       </p>
       <br />
       <Grid>
